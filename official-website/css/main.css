@@ -1,0 +1,151 @@
+		/*主容器开始*/
+		.main-container{
+			width: 100%;
+			background-color: #fff;
+		}	
+		/*页头开始*/
+		.top-header{
+			width: 100%;
+			background-color:#fff;
+		}	
+		.header-container{ 
+			width:980px;
+			height: 64px;
+			margin: 0 auto;
+		}
+		.header-menu-logo{
+			line-height: 64px;
+			margin-right: 20px;
+			max-height: 64px;
+		}	
+		.header-menu-logo img{
+			display: inline-block;
+			max-height: 40px;
+			margin: 10px 0;
+		}
+		.header-menu-item a{
+			display: inline-block;
+			line-height: 64px;
+			padding: 0 20px;
+		}
+		.header-menu-item a:hover{
+			background-color: rgba(0,0,0,0.2);
+		}
+		/*页头结束*/
+	
+		/*主内容开始*/
+		.content-container{
+			width: 100%;
+		}
+		/*banner开始*/
+		.slider-container{
+			width: 100%;
+			height: 500px;
+			background:url("https://mart.coding.net/images/home/index-background.jpg")
+		}
+		/*banner结束*/
+		
+		/*首页列表开始*/
+		.select-wrapper{
+			    background-color: #fff;
+			    height: 80px;
+			    border: 1px solid #E6E6E6;
+			    box-shadow: 0 -1px 4px 0 rgba(0,0,0,.2);
+		}
+	
+		.list-wrapper{
+			width: 1000px;
+			margin: 0 auto;
+			padding: 30px 0;	
+		}
+		.list-item{
+			width: 30%;
+			height: 300px;
+			margin-right: 1.5%;
+			margin-left: 1.5%;			
+		} 	
+		.list-item-content{
+			width: 100%;
+			height: 100%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 20px;
+		}
+		
+		.list-item-content:hover{
+			-webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);		
+  			background-color: #fff;
+		}
+		.list-item-content:hover .cover-desciption{
+			top: 0;
+			left: 0;
+		}	
+		.item-detail-link{
+			width: 100%;
+			height: 55%;
+			overflow: hidden;
+			position: relative;
+			display:block;
+		}	
+		.item-detail-link:hover .cover-desciption{
+			top: 0;
+			left: 0;
+		}
+		.cover{
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+	    	overflow: hidden;
+		}
+		.cover-desciption{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 100%;
+			font-size: 12px;
+			color: #fff;
+			background-color: rgba(0,0,0,0.5);
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 20px;
+			-webkit-transition: top .3s cubic-bezier(0.03, 0.9, 0.56, 1.07);;
+			-o-transition: top .3s cubic-bezier(0.03, 0.9, 0.56, 1.07);;
+			transition: top .3s cubic-bezier(0.03, 0.9, 0.56, 1.07);;
+		}	
+		.cover-desciption p{
+			text-align: center;
+			overflow: hidden;
+			line-height: 2;
+		}
+		/*首页列表结束*/
+		
+		.project-des , .project-price{
+			line-height: 50px;
+		}
+		.project-price span i{
+			background-color: green;
+			color: #fff;
+			font-style: normal;
+			font-size: 14	px;
+		}	
+		/*页脚开始*/
+		.footer{
+			width: 100%;
+			height:100px;
+			background: #f7f6f2;
+			border-top: 1px solid #ccc;
+			text-align: center;
+			padding-top: 50px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+
+		}	
+
+		/*页脚结束*/
