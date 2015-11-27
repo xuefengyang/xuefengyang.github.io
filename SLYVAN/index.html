@@ -15,10 +15,12 @@
 			}	
 			function setupItemHeight(){
 				var oProductItems=document.getElementsByClassName('product-item');
-				for (var i=0;i<oProductItems.length;i++){
-					var height =Math.ceil(oProductItems[i].offsetWidth*0.66);
-					oProductItems[i].style.height=height+'px';
-				}	
+				if(oProductItems.length>0){
+					var height =Math.floor(oProductItems[0].offsetWidth*0.66);
+					for (var i=0;i<oProductItems.length;i++){
+						oProductItems[i].style.height=height+'px';
+					}	
+				}
 			};		
 	</script>
 </head>	
