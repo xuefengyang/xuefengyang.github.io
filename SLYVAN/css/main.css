@@ -11,7 +11,7 @@
 .logo-wrapper a img{
 	width: 100%;
 	max-height: 200px;
-}
+}	
 .menu{
 	max-width: 1000px;
 	margin: 0 auto;	
@@ -36,19 +36,19 @@
 	margin-top: 50px;
 }	
 .product-list{
-	margin-left: -10px;
+	margin-left: -2.22%;
 }	
 .product-item{
 	width: 33.33%;
 	height: 300px;
 }	
 .product-content{
-	margin-left: 10px;
-	margin-bottom: 10px;
+	margin-left: 2.22%;
+	margin-bottom: 3.33%;
 	background-color: #cfcfcf;
-	height: 290px;	
+	height: 96.66%;	
 	overflow: hidden;
-}
+}	
 .product-content a{
 	display: block;
 	width: 100%;

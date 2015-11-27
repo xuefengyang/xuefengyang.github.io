@@ -5,7 +5,23 @@
 	<title>SLYVAN</title>
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript">
+			window.onload=function(){	
+				setupItemHeight();
+			}	
+			window.onresize=function(){
+				setupItemHeight();
+			}	
+			function setupItemHeight(){
+				var oProductItems=document.getElementsByClassName('product-item');
+				for (var i=0;i<oProductItems.length;i++){
+					var height =Math.ceil(oProductItems[i].offsetWidth*0.66);
+					oProductItems[i].style.height=height+'px';
+				}	
+			};		
+	</script>
+</head>	
 <body>	
 	<header class="head">
 		<div class="logo-wrapper">
@@ -33,7 +49,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="product-item fl">
+				<div  class="product-item fl">
 					<div class="product-content">
 						<a href="javascript:;">
 						<img src="http://a5.format-assets.com/image/private/s--3oRLmfIy--/c_limit,g_center,h_65535,w_550/a_auto,fl_keep_iptc.progressive,q_95/IMG_5260_h0oxbr.jpg" alt="">
